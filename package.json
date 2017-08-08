@@ -1,0 +1,27 @@
+{
+  "name": "{{ name }}",
+  "version": "0.0.1",
+  "description": "{{ description }}",
+  "main": "index.js",
+  "bin": {
+    "markdown-clear": "./lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sealui/package-template.git"
+  },
+  "keywords": [
+    "package",
+    "template",
+    "sealui"
+  ],
+  "author": "{{ author }}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sealui/package-template/issues"
+  },
+  "homepage": "https://github.com/sealui/package-template#readme"
+}
